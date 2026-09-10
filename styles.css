@@ -157,9 +157,16 @@ h1, h2 { font-family: var(--serif); }
   line-height: 1.65;
 }
 
+.hero-actions {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .8rem;
+}
+
+.download-button,
 .support-button {
   width: fit-content;
-  margin-top: 2rem;
   padding: .8rem 1.15rem;
   border: 1px solid var(--ink);
   display: inline-flex;
@@ -172,13 +179,25 @@ h1, h2 { font-family: var(--serif); }
   font-weight: 600;
   transition: color .2s ease, background-color .2s ease, transform .2s ease;
 }
+.download-button {
+  color: var(--paper);
+  background: var(--ink);
+}
+.download-button:hover,
+.download-button:focus-visible {
+  background: var(--rust);
+  border-color: var(--rust);
+  transform: translateY(-2px);
+}
 .support-button:hover,
 .support-button:focus-visible {
   color: var(--paper);
   background: var(--ink);
   transform: translateY(-2px);
 }
-.support-button span { color: var(--rust); font-size: 1.05rem; }
+.download-button span,
+.support-button span { font-size: 1.05rem; }
+.support-button span { color: var(--rust); }
 
 .release-note {
   margin-top: 2.5rem;
@@ -303,6 +322,8 @@ footer {
   }
   .book-stage { width: min(82vw, 360px); justify-self: center; }
   .hero-copy h1 { font-size: clamp(2.75rem, 13vw, 4.4rem); }
+  .hero-actions { align-items: stretch; flex-direction: column; }
+  .download-button, .support-button { width: 100%; justify-content: center; }
   .method { padding-top: 84px; padding-bottom: 84px; grid-template-columns: 1fr; gap: 10px; }
   .route-steps { margin-top: 40px; }
   .route-steps li { grid-template-columns: 52px 1fr; }
