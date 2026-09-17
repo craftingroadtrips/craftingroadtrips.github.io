@@ -1,6 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#17221f"/>
-  <path d="M14 43c11-3 13-19 23-22 5-2 10 0 13 2" fill="none" stroke="#d77b51" stroke-width="6" stroke-linecap="round"/>
-  <circle cx="14" cy="43" r="4" fill="#f3eadf"/>
-  <circle cx="50" cy="23" r="4" fill="#f3eadf"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Crafting Road Trips — Designed Journey</title>
+  <desc id="desc">A planned route connects origin and destination pins along a winding road through mountains.</desc>
+
+  <defs>
+    <clipPath id="badge"><circle cx="540" cy="540" r="486"/></clipPath>
+    <g id="pin">
+      <path d="M0 0c-32-41-50-66-50-100a50 50 0 1 1 100 0c0 34-18 59-50 100Z" fill="#c9603f" stroke="#f3eadf" stroke-width="12" stroke-linejoin="round"/>
+      <circle cy="-100" r="18" fill="#f3eadf"/>
+    </g>
+  </defs>
+
+  <rect width="1080" height="1080" fill="#17221f"/>
+
+  <g clip-path="url(#badge)">
+    <rect x="54" y="54" width="972" height="512" fill="#789194"/>
+    <rect x="54" y="566" width="972" height="514" fill="#17221f"/>
+
+    <circle cx="754" cy="283" r="86" fill="#e8b84a"/>
+
+    <path d="M72 566 292 330 455 502 610 316 842 566Z" fill="#31483f"/>
+    <path d="M72 566 292 330 455 502 380 566Z" fill="#3c554b"/>
+    <path d="M380 566 610 316 842 566Z" fill="#49635a"/>
+    <path d="m241 384 51-54 51 54-25-11-26 29-25-29Z" fill="#f3eadf"/>
+    <path d="m551 382 59-66 66 72-37-20-29 31-27-31Z" fill="#f3eadf"/>
+
+    <path d="M102 566h876" stroke="#f3eadf" stroke-width="13" opacity=".78"/>
+
+    <path d="M100 1080c73-160 380-150 420-260 33-90-110-130-65-190 27-36 79-49 115-64h50c-30 29-82 51-90 82-14 52 122 97 105 192-23 130-245 170-305 240Z" fill="#f3eadf"/>
+
+    <path d="M320 960c92-49 226-74 257-145 28-70-83-108-72-169 7-33 58-58 89-78" fill="none" stroke="#c9603f" stroke-width="14" stroke-linecap="round"/>
+    <g fill="#c9603f" stroke="#f3eadf" stroke-width="11">
+      <circle cx="563" cy="829" r="26"/>
+      <circle cx="505" cy="650" r="26"/>
+    </g>
+    <g transform="translate(320 960)">
+      <path d="M0 0c-32-41-50-66-50-100a50 50 0 1 1 100 0c0 34-18 59-50 100Z" fill="#c9603f" stroke="#f3eadf" stroke-width="12" stroke-linejoin="round"/>
+      <circle cy="-100" r="18" fill="#f3eadf"/>
+    </g>
+    <g transform="translate(594 568)">
+      <path d="M0 0c-32-41-50-66-50-100a50 50 0 1 1 100 0c0 34-18 59-50 100Z" fill="#c9603f" stroke="#f3eadf" stroke-width="12" stroke-linejoin="round"/>
+      <circle cy="-100" r="18" fill="#f3eadf"/>
+    </g>
+  </g>
+
+  <circle cx="540" cy="540" r="486" fill="none" stroke="#f3eadf" stroke-width="18"/>
 </svg>
