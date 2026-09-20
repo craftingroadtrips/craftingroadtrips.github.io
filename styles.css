@@ -363,3 +363,10 @@ footer {
 .instagram-link:hover {
   opacity: 0.7;
 }
+
+.brand-logo {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
