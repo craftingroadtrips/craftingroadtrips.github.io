@@ -337,3 +337,29 @@ footer {
   .book-cover { transition: transform .35s ease, box-shadow .35s ease; }
   .book-stage:hover .book-cover { transform: translateY(-5px) rotate(-.35deg); box-shadow: 0 38px 72px rgba(35,28,20,.32), -10px 8px 0 #dad3c5; }
 }
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.instagram-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.instagram-link svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.instagram-link:hover {
+  opacity: 0.7;
+}
